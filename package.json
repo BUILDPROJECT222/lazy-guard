@@ -1,0 +1,14 @@
+{
+  "name": "lazy-guard",
+  "version": "0.1.0",
+  "description": "MCP policy layer for Solana AI agents: ask before acting on-chain.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "bin": { "lazy-guard": "index.js" },
+  "scripts": { "test": "node --test ./test/*.test.js" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^3.23.0"
+  }
+}
